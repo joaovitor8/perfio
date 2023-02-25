@@ -1,0 +1,15 @@
+.App {}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Header span {
+  font-weight: bold;
+  font-size: 40px;
+}
