@@ -4,7 +4,7 @@
 export const Header = () => {
   return(
     <div className="Header">
-      <span> &lt;J/V&gt; </span>
+      <span> &lt;JV /&gt; </span>
 
       <nav>
         <ul>

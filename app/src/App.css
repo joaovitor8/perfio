@@ -7,7 +7,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: #22272E;
   height: 100px;
   margin-bottom: 1px;
 }
@@ -15,7 +15,7 @@
 .Header span {
   font-weight: bold;
   font-size: 40px;
- color: rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
 }
 
 .Header nav {
@@ -48,15 +48,18 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: #22272E;
   height: 100px;
   margin-top: 1px;
 }
 
 .Footer span {
+  font-weight: bold;
+  font-size: 40px;
   color: rgb(0, 255, 0);
 }
 
 .Footer img {
   height: 50px;
+  margin: 0 20px;
 }
