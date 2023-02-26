@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 
 export const Header = () => {
@@ -7,12 +7,9 @@ export const Header = () => {
       <span> &lt;JV /&gt; </span>
 
       <nav>
-        <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Projetos</li>
-          <li>Contado</li>
-        </ul>
+        <Link to="/">Home</Link>
+        <Link to="/sobre">Sobre</Link>
+        <Link to="/projetos">Projetos</Link>
       </nav>
     </div>
   )

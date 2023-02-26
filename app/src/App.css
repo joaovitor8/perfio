@@ -5,11 +5,12 @@
 .Header {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #22272E;
   height: 100px;
   margin-bottom: 1px;
+  padding: 0 50px;
 }
 
 .Header span {
@@ -23,22 +24,16 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
 
-.Header ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-.Header li {
-  list-style: none;
-  padding: 5px 10px;
-  font-size: 20px;
+.Header a {
   color: rgb(0, 255, 0);
+  text-decoration: none;
+  margin: 0 30px;
+}
+
+.Header a:hover {
+  color: #12BEF8;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -46,11 +41,12 @@
 .Footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #22272E;
   height: 100px;
   margin-top: 1px;
+  padding: 0 50px;
 }
 
 .Footer span {
@@ -59,7 +55,14 @@
   color: rgb(0, 255, 0);
 }
 
+
 .Footer img {
   height: 50px;
   margin: 0 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.Home {
+  height: 100%;
 }

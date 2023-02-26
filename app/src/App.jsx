@@ -1,14 +1,26 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Header } from "./components/Header"
+import { Home } from "./pages/Home"
+import { Sobre } from "./pages/Sobre"
+import { Projetos } from "./pages/Projetos"
 import { Footer } from "./components/Footer"
 import "./App.css"
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Footer />
+      <Router>
+        <Header></Header>
+              
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/sobre' element={<Sobre/>} />
+          <Route path='/projetos' element={<Projetos/>} />
+        </Routes>
+
+        <Footer />
+      </Router>
     </div>
   )
 }
-
-export default App
