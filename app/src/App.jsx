@@ -5,12 +5,13 @@ import { Sobre } from "./pages/Sobre"
 import { Projetos } from "./pages/Projetos"
 import { Footer } from "./components/Footer"
 import "./App.css"
+import { Perfio } from './perfio/Perfio'
 
 
 export default function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Header></Header>
               
         <Routes>
@@ -20,7 +21,9 @@ export default function App() {
         </Routes>
 
         <Footer />
-      </Router>
+      </Router> */}
+
+      <Perfio />
     </div>
   )
 }

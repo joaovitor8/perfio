@@ -1,4 +1,58 @@
-.App {}
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/fundo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Perfio {
+  height: 600px;
+  width: 350px;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: rgb(0, 255, 0);
+}
+
+.Perfio div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Perfio img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin: 15px 0;
+}
+
+.Perfio li {
+  list-style: none;
+  margin: 20px 5px;
+}
+
+.Perfio a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+  border:  1px solid rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+  border-radius: 5px;
+}
 
 /*---------------------------------------------------------------------------------------------------*/
 
